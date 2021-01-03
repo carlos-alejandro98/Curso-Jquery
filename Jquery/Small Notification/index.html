@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Small Notification</title>
+
+    <!-- Importacion del jQuery -->
+    <script src="js/lib/jquery-2.1.4.min.js"></script>
+
+    <script src="js/lib/TweenMax.min.js"></script>
+
+    <!-- Importacion del Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Importacion del Fontawesome -->
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- 
+    <div class="smallBox-contenedor">
+        <div class="smallBox-foto">
+            <img src="img/foto.jpg" alt="foto" />
+        </div>
+        <div class="smallBox-pico"></div>
+        <div class="smallBox-contenido" align="center">
+            <div class="smallBox-textoContenedor" align="left">
+                <span class="smallBox-titulo">Al aire</span>
+                <span class="smallBox-subTitulo"></span>La voz de Chile vivo</span>
+            </div>
+            <div class="smallBox-cajaColor">
+                <div class="smallBox-colorTexto">
+                    <i class="fas fa-bell"></i> Karen Melissa 107.1fm
+                </div>
+                <div class="smallBox-colorIcon">
+                    <i class="far fa-envelope fa-2x"></i>
+                </div>
+            </div>
+            <div class="smallBox-sombra">
+            </div>
+        </div>
+    </div>
+    -->
+
+
+
+    <div class="container">
+
+        <h1>Small: <small>Notification</small></h1>
+        <hr>
+
+
+    </div>
+
+
+    <script src="js/smallBox.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $.smallBox({
+                titulo: "Titulo",
+                subtitulo: "Subtitulo",
+                contenido: "Este es el contenido",
+                img: "img/foto2.png",
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
